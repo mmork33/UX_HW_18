@@ -1,0 +1,222 @@
+header {
+    background-color: #1A1818;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+
+}
+
+.primaryHead {
+    font-size: 48px;
+    color: #ECC748;
+    font-family: "Bebas Neue", Helvetica, sans-serif;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.secondHead {
+    font-size: 36px;
+    color: #FFE37D;
+    font-family: "Bebas Neue", Helvetica, sans-serif;
+    padding-bottom: 10px;
+    padding-right: 80px;
+    text-align: left;
+}
+
+#nav {
+    color: white;
+    font-size: 18px;
+    font-family: "Bebas Neue", Helvetica, sans-serif;
+    padding-bottom: 10x;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+}
+
+.menuTabs {
+    padding: 10px;
+    margin: 5px;
+
+}
+
+body {
+    background-color: #3A3A3A;
+    text-align: center;
+}
+
+
+.subheading {
+    color: white;
+    font-family: "Futura", Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+#tagline {
+    color: white;
+    font-family: "Futura", Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+#radioK {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 35px;
+
+}
+
+#aboutMe {
+    text-align: center;
+    font-size: 24px;
+    font-family: "Futura", Helvetica, sans-serif;
+    color: white;
+    padding-bottom: 25px;
+}
+.bio {
+    color: white;
+    font-family: "Futura", Helvetica, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    line-height: 2;
+    text-indent: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 900px;
+    
+}
+
+#p1 {
+    text-align: center;
+    padding-left: 150px;
+
+}
+
+.mySkills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    color: white;
+    font-size: 24px;
+    font-family: "Futura", Helvetica, sans-serif;
+}
+
+#research {
+    border: 5px solid #ECC748;
+    
+}
+
+#writing {
+    border: 5px solid #ECC748;
+    
+}
+#architecture {
+    border: 5px solid #ECC748;
+    
+}
+#skills {
+    color: white;
+    font-family: "Futura", Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#kaleidoscope {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 5px;
+   padding-bottom: 35px;
+
+}
+
+#uimn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 200px;
+}
+
+
+#portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #ECC748;
+}
+
+footer {
+    background-color: #1A1818;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tertiaryHead {
+    color: white;
+    font-family: "Bebas Neue", Helvetica, sans-serif;
+    padding-left: 150px;
+    padding-right: 50px;
+    font-size: 36px;
+
+}
+
+#socialLinks {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#linkedin {
+    text-decoration: none;
+    color: white;
+    font-family: "Futura", Helvetica, sans-serif;
+    padding: 10px;
+}
+
+#hotmail {
+    text-decoration: none;
+    color: white;
+    font-family: "Futura", Helvetica, sans-serif;
+    padding: 10px;
+
+}
+
+#gmail {
+    text-decoration: none;
+    color: white;
+    font-family: "Futura", Helvetica, sans-serif;
+    padding: 10px;
+
+}
+
+#copyright {
+    color: white;
+    font-family: "Futura", Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 100px;
+}
+
+@media only screen and (max-width: 600){
+    .mySKills {
+        flex-direction: column;
+        width: 100%;
+    }
+}
